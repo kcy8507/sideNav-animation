@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+@import url(./reset.css);
+
+.side-nav {
+  width: 35%;
+  height: 100%;
+  position: fixed;
+  background: salmon;
+  transform: translate(-35%, -100%);
+  transition: all 1s;
+}
+
+.open,
+.close,
+.swt {
+  width: 100px;
+  height: 50px;
+  display: block;
+  margin-left: auto;
+}
+
+.active {
+  //   display: block;
+  transform: translate(0%, 0%);
+}
